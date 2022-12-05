@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   rimraf: ^3.0.2
@@ -12,7 +12,7 @@ devDependencies:
   rimraf: 3.0.2
   rollup: 2.59.0
   rollup-plugin-copy: 3.4.0
-  rollup-plugin-ts: 1.4.7_rollup@2.59.0+typescript@4.4.4
+  rollup-plugin-ts: 1.4.7_lnmdqshiqbhfkz6pvdkeb54zry
   rollup-plugin-uglify: 6.0.4_rollup@2.59.0
   typescript: 4.4.4
 
@@ -298,6 +298,8 @@ packages:
     resolution: {integrity: sha512-dcNwU1O4sx57ClvLBVFbEgx0UZWfd0JQX5X6fxFRCLHelFBGXFfSz6Y0FAq2PEwUqlqLkdVjVr4VASEOuUnLJw==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+    dependencies:
+      '@babel/types': 7.16.0
     dev: true
 
   /@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/7.16.2_@babel+core@7.16.0:
@@ -1906,7 +1908,7 @@ packages:
       is-plain-object: 3.0.1
     dev: true
 
-  /rollup-plugin-ts/1.4.7_rollup@2.59.0+typescript@4.4.4:
+  /rollup-plugin-ts/1.4.7_lnmdqshiqbhfkz6pvdkeb54zry:
     resolution: {integrity: sha512-Qvmu8GVQ1+F4wcfr+S9iWVcG2PCLZMZ85ZpCZm5zTFmX2Z7hLbXePOWuReWO+7/fS3F1ysUzj/smFYQd026Juw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:

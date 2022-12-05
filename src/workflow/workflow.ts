@@ -14,6 +14,7 @@ class Workflow {
       .setIcon(icon)
       .setCmd('🔊 ' + r.pronounce, r.pronounce)
       .setAlt('📣 ' + r.pronounce, r.pronounce)
+      .setShift('🌟 ' + r.pronounce, r.subtitle + '|' + r.arg )
       .setCopy(r.title)
       .setQuicklookurl(r.quicklookurl)
       .result();
